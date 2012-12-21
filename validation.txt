@@ -1,0 +1,8 @@
+start server
+  with plugin javascript 1.1
+sonar-runner
+verify org.codehaus.sonar:javascript-sonar-runner
+  measure lines is 14
+  measure ncloc is 10
+  measure files is 1
+stop server
